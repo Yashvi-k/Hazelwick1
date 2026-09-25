@@ -6,7 +6,7 @@ if ((year % 4 ==0) and (year % 100 != 0)) or (year % 400 == 0):
 month = int(input("Enter a month number:"))
 if month < 1 or month > 12:
     print("error")
-if month == "2":
+if month == 2:
     if leap == True:
         print ("29 days")
     else:
