@@ -11,4 +11,3 @@ if height > 180:
 else:
     print("False")
 
-f
